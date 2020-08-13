@@ -1,6 +1,6 @@
 # Setting up rEFInd
 
-* We do not support the use of rEFInd with OpenCore, this is just to shut up those who won't stop complaining that OpenCore injects data into all OSes but for some reason are too lazy to press F8 at boot.  Using rEFInd can break both bless and Startup Disk, and can be concidered a security risk.
+* We do not support the use of rEFInd with OpenCore, this is just to shut up those who won't stop complaining that OpenCore injects data into all OSes but for some reason are too lazy to press F8 at boot.  Using rEFInd can break both bless and Startup Disk, and can be considered a security risk.
 * Please note that rEFInd has also been know to break macOS booting
 
 To get started we're going to need:
@@ -23,7 +23,7 @@ And depending on your preferred OS, you've got a couple options for setting up r
 * Rename `refind_x64.efi` to `BOOTx64.efi`
 * Move rEFInd's `BOOTx64.efi`to EFI/BOOT
 * Add the folders `drivers_x64`, `tools` and `icons` to EFI/BOOT
-* Grab refind.conf-sample and add it to EFI/OC
+* Grab refind.conf-sample and add it to EFI/BOOT
 * Rename `refind.conf-sample`to `refind.conf`
 
 Once done, you should get something like this:
